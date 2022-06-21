@@ -18,3 +18,45 @@ Every machine learning project follows a workflow and phases, depending on the p
  3. Data Preparation (Feature Engineering)
  4.  Modeling
  5.  Deployment
+
+### File Hierarchy
+
+[Data folder](https://github.com/joyjoseph/Predicting-Student-Academic-Performance/blob/master/data%20(1).csv): The provided dataset was collected through the [UCI Machine Learning Repository](https://archive-beta.ics.uci.edu/ml/datasets/predict+students+dropout+and+academic+success), the dataset created from a higher education institution (acquired from several disjoint databases) related to students enrolled in different undergraduate degrees, such as agronomy, design, education, nursing, journalism, management, social service, and technologies. 
+The dataset includes information known at the time of student enrollment (academic path, demographics, and social-economic factors) and the students' academic performance at the end of the first and second semesters. 
+The file can be exported to csv format.
+
+Templates Folder: This folder contains the webpage scripts (HTML, CSS and JAVASRIPT).
+
+[Process File](https://github.com/joyjoseph/Predicting-Student-Academic-Performance/blob/master/Procfile): The minimised version file of the Student_Performance.ipynb containing python codes for.
+
+1. Data Visualisation
+2. Data Preprocessing
+3. Modeling
+4. Results Analysis
+
+[README.md](https://github.com/joyjoseph/Predicting-Student-Academic-Performance/blob/master/README.md): This is a summary file mostly rewritten as a documentation for all software processes.
+
+[App file](https://github.com/joyjoseph/Predicting-Student-Academic-Performance/blob/master/app.py): This file contains the flask server deployment file sotored as app.py.
+
+[Model Pickle File](https://github.com/joyjoseph/Predicting-Student-Academic-Performance/blob/master/model_joblib.pkl): This is a serialised model file for offline batch prediction.
+
+[Student_Performance.ipynb](https://github.com/joyjoseph/Predicting-Student-Academic-Performance/blob/master/Student_Performance.ipynb): The original file containing python codes for;
+
+1. Data Visualisation
+2. Data Preprocessing
+3. Modeling
+4. Results Analysis.
+
+[Requirements File](https://github.com/joyjoseph/Predicting-Student-Academic-Performance/blob/master/requirements.txt): The requirements.txt file is the list of all libraries and their versions.
+
+The dependencies can be imported by using "--import --name--".
+
+Some of the dependencies are:
+
+1. pandas
+2. numpy
+3. matplotlib
+4. seaborn
+5. sklearn
+6. catboost
+
