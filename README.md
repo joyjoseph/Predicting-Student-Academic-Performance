@@ -10,6 +10,7 @@ The provided dataset was collected through the UCI Machine Learning Repository, 
 The dataset includes information known at the time of student enrollment (academic path, demographics, and social-economic factors) and the students' academic performance at the end of the first and second semesters. 
 
 ### Project Process
+
 Every machine learning project follows a workflow and phases, depending on the project specifications.The phases followed to achieve this result include:
 
  Data collection
