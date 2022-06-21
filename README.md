@@ -13,8 +13,8 @@ The dataset includes information known at the time of student enrollment (academ
 
 Every machine learning project follows a workflow and phases, depending on the project specifications.The phases followed to achieve this result include:
 
- Data collection
- Exploratory Data Analysis
- Data Preparation (Feature Engineering)
- Modeling
- Deployment
+ 1. Data collection
+ 2. Exploratory Data Analysis
+ 3. Data Preparation (Feature Engineering)
+ 4.  Modeling
+ 5.  Deployment
