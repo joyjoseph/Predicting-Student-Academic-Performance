@@ -64,5 +64,3 @@ Some of the dependencies are:
 4. seaborn
 5. sklearn
 6. catboost
-
->>>>>>> b845c735144790eb0c19672c77819d8176b0554f
