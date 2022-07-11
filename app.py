@@ -31,7 +31,7 @@ def predict():
         Course = request.args.get('Course')
 
         ShowUp = request.args.get('Attendance')
-        if ShowUp in ['Yes']:
+        if ShowUp in ['present']:
                 Attendance = 1
         else:
                 Attendance = 0
@@ -64,9 +64,9 @@ def predict():
 
         Grant = request.args.get('S_Holder')
         if Grant in ['Yes']:
-                S_Holder = 0
-        else:
                 S_Holder = 1
+        else:
+                S_Holder = 0
 
         Age_at_Enroll = request.args.get('Age_at_Enroll')
         Cur_U_1st_Sem_Credit = request.args.get('Cur_U_1st_Sem_Credit')
